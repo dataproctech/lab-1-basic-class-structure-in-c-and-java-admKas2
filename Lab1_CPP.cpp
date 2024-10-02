@@ -1,5 +1,6 @@
 // include the necessary libraries
 #include<iostream>
+using namespace std;
 
 class Car {
     //attributes
@@ -7,6 +8,7 @@ class Car {
     string model;
     int year;
     // Constructor
+public:
     Car(){
         this->make = "no data";
         this->model = "no data";
